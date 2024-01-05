@@ -1,7 +1,8 @@
 repo_name: zaknbur/pyecharts
 report_id: 227e32a9d0fb6a27ab6dbb8b22f86113
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-23T15:33:28+00:00'
+timestamp: '2024-01-05T08:35:21+00:00'
 requested_by: chenjiandongx
 provider: github
 branch: master
@@ -17,7 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: chfw
   last_updated_on: 2017-08-19 14:55:35.000000000 Z
@@ -30,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/zaknbur/pyecharts
   detection_source: Repo Metadata
 - name: Codecov
   description: Hosted coverage reports with awesome features to enhance your CI workflow
@@ -39,6 +41,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/test/requirements.txt
   detection_source: test/requirements.txt
   last_updated_by: chfw
   last_updated_on: 2017-07-30 19:13:49.000000000 Z
@@ -50,6 +53,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/zaknbur/pyecharts
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -59,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/test/requirements.txt
   detection_source: test/requirements.txt
   last_updated_by: chfw
   last_updated_on: 2017-07-30 19:05:50.000000000 Z
@@ -71,6 +76,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: chfw
   last_updated_on: 2017-07-30 17:04:20.000000000 Z
@@ -83,6 +89,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/4835/default_0a87fe83d3c6dc2bd452e7bf2428b32269c080d2.png
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/requirements-dev.txt
   detection_source: requirements-dev.txt
   last_updated_by: 陈键冬
   last_updated_on: 2019-04-05 04:49:29.000000000 Z
@@ -92,6 +99,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/pyecharts/render/templates/image.html
   detection_source: pyecharts/render/templates/image.html
   last_updated_by: 陈键冬
   last_updated_on: 2019-05-18 15:52:25.000000000 Z
@@ -104,76 +112,83 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/zaknbur/pyecharts
   detection_source: Repo Metadata
 - name: black
   description: The uncompromising code formatter
-  package_url: https://pypi.org/black
+  package_url: https://pypi.org/project/black
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/requirements-dev.txt
   detection_source: requirements-dev.txt
   last_updated_by: 陈键冬
   last_updated_on: 2019-04-05 04:49:29.000000000 Z
 - name: coverage
   description: Code coverage measurement for Python
-  package_url: https://pypi.org/coverage
+  package_url: https://pypi.org/project/coverage
   license: Apache-2.0
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/test/requirements.txt
   detection_source: test/requirements.txt
   last_updated_by: chfw
   last_updated_on: 2017-07-30 19:13:49.000000000 Z
 - name: flake8
   description: 'The modular source code checker: pep8, pyflakes and co'
-  package_url: https://pypi.org/flake8
+  package_url: https://pypi.org/project/flake8
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/test/requirements.txt
   detection_source: test/requirements.txt
   last_updated_by: chfw
   last_updated_on: 2017-11-17 21:44:53.000000000 Z
 - name: jupyter
   description: Jupyter metapackage
-  package_url: https://pypi.org/jupyter
+  package_url: https://pypi.org/project/jupyter
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/test/requirements.txt
   detection_source: test/requirements.txt
   last_updated_by: chfw
   last_updated_on: 2017-08-13 22:44:02.000000000 Z
 - name: mccabe
   description: McCabe checker, plugin for flake8
-  package_url: https://pypi.org/mccabe
+  package_url: https://pypi.org/project/mccabe
   license: Saxpath
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20323/default_cafc15de82628e6c121e1ea9ce941c1410268b49.png
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/test/requirements.txt
   detection_source: test/requirements.txt
   last_updated_by: kinegratii
   last_updated_on: 2018-05-03 13:32:30.000000000 Z
 - name: nose
   description: Nose extends unittest to make testing easier
-  package_url: https://pypi.org/nose
+  package_url: https://pypi.org/project/nose
   license: LGPL-2.1+
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19887/default_680f9274a97353753534797409b2c06b6bd32266.png
+  detection_source_url: https://github.com/zaknbur/pyecharts/blob/master/test/requirements.txt
   detection_source: test/requirements.txt
   last_updated_by: chfw
   last_updated_on: 2017-07-30 19:05:50.000000000 Z
