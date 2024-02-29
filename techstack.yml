@@ -2,7 +2,7 @@ repo_name: zaknbur/pyecharts
 report_id: 227e32a9d0fb6a27ab6dbb8b22f86113
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:35:21+00:00'
+timestamp: '2024-02-29T18:52:36+00:00'
 requested_by: chenjiandongx
 provider: github
 branch: master
@@ -81,7 +81,7 @@ tools:
   last_updated_by: chfw
   last_updated_on: 2017-07-30 17:04:20.000000000 Z
 - name: isort
-  description: " A Python utility / library to sort imports"
+  description: A Python utility / library to sort imports
   website_url: https://pycqa.github.io/isort/
   license: MIT
   open_source: true
